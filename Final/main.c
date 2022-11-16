@@ -155,19 +155,6 @@ while(1)
     }
  
 }
-
-
-
-    
-    /*
-    while (tacos < 600)
-    {
-        tacos = tacos + 5;
-        sleep(20);
-    }
-    */
-
-    
     for (int i = 0; i < Hilos; i++)
     {
         if(pthread_join(hilo[i],NULL) != 0)
